@@ -48,7 +48,7 @@ local HTML_TAG = {
 local JSX_TAG = {
     filetypes              = {
         'typescriptreact', 'javascriptreact', 'javascript.jsx',
-        'typescript.tsx', 'javascript', 'typescript', 'rescript'
+        'typescript.tsx', 'javascript', 'typescript', 'rescript', 'html'
     },
     start_tag_pattern      = 'jsx_opening_element|start_tag',
     start_name_tag_pattern = 'identifier|nested_identifier|tag_name|jsx_identifier',
